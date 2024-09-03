@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sousocial/widgets/fit.dart';
+import 'package:sousocial/widgets/meditation.dart';
+import 'package:sousocial/widgets/pet.dart';
 import 'package:sousocial/widgets/phones.dart';
 
 void main() {
@@ -61,6 +63,10 @@ class _MyHomePageState extends State<MyHomePage> {
               PhonesCard(),
               SizedBox(height: 20),
               FitCard(),
+              SizedBox(height: 20),
+              MeditationCard(),
+              SizedBox(height: 20),
+              PetCard(),
             ],
           ),
         ),
