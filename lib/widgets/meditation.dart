@@ -47,6 +47,7 @@ class MeditationCard extends StatelessWidget {
                 const SizedBox(height: 32),
                 const Text(
                     'Quer mais recomendações de vídeos? Segue uma playlist de sons naturais pra te ajudar:'),
+                const SizedBox(height: 10),
                 Row(
                   children: [
                     Expanded(

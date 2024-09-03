@@ -56,6 +56,7 @@ class PetCard extends StatelessWidget {
                 const SizedBox(height: 32),
                 const Text(
                     'Você sabia? Tutores que não recolhem as fezes dos pets na rua podem sofrer punições'),
+                const SizedBox(height: 10),
                 Row(
                   children: [
                     Expanded(

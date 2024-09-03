@@ -54,6 +54,7 @@ class FitCard extends StatelessWidget {
                 const SizedBox(height: 32),
                 const Text(
                     'Não sabe quais exercícios fazer? Segue alguns vídeos:'),
+                const SizedBox(height: 10),
                 Row(
                   children: [
                     Expanded(
