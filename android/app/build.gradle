@@ -53,7 +53,7 @@ android {
     
     buildTypes {
         release {
-            signingConfig = signingConfigs.debug
+            signingConfig = signingConfigs.release
         }
     }
 }
@@ -63,5 +63,5 @@ flutter {
 }
 
 dependencies {
-    implementation("com.google.android.material:material:<version>")
+    implementation("com.google.android.material:material:1.12.0")
 }
